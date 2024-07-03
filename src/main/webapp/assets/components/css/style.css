@@ -1,0 +1,46 @@
+/* Definición de la paleta de colores */
+:root {
+    --fondo-negro: #000000;
+    --texto-blanco: #ffffff;
+    --gris-oscuro: #333333;
+    --gris-claro: #555555;
+    --azul: #007bff;
+    --azul-oscuro: #0056b3;
+}
+
+
+/* Estilos personalizados para el formulario */
+form {
+    background-color: #000000; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Color del texto dentro del formulario */
+}
+
+/* Estilos personalizados para los elementos del formulario */
+form input[type="text"],
+form input[type="email"],
+form select {
+    background-color: #000000; /* Fondo gris oscuro */
+    border: 1px solid #555; /* Borde gris */
+    color: #fff; /* Texto blanco */
+}
+
+/* Opcional: estilos para los placeholders */
+form input[type="text"]::placeholder,
+form input[type="email"]::placeholder {
+    color: #ccc; /* Color del texto del placeholder */
+}
+
+form button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color de texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Color de fondo azul oscuro al pasar el mouse */
+}
